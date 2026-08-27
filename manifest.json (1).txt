@@ -1,0 +1,63 @@
+{
+  "background_color": "#020617",
+  "categories": [
+    "books",
+    "lifestyle",
+    "religion"
+  ],
+  "description": "استمع للقرآن الكريم بصوت مشاري العفاسي وياسر الدوسري - بدون إنترنت",
+  "dir": "rtl",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "browser"
+  ],
+  "icons": [
+    {
+      "purpose": "any",
+      "sizes": "192x192",
+      "src": "https://cdn-icons-png.flaticon.com/512/1701/1701029.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "https://cdn-icons-png.flaticon.com/512/1701/1701029.png",
+      "type": "image/png"
+    }
+  ],
+  "lang": "ar",
+  "name": "القرآن الكريم - العفاسي و الدوسري",
+  "orientation": "portrait",
+  "scope": "./",
+  "short_name": "القرآن",
+  "shortcuts": [
+    {
+      "description": "الاستماع بصوت العفاسي",
+      "icons": [
+        {
+          "sizes": "192x192",
+          "src": "https://cdn-icons-png.flaticon.com/512/1701/1701029.png"
+        }
+      ],
+      "name": "العفاسي",
+      "short_name": "العفاسي",
+      "url": "./?reader=afs"
+    },
+    {
+      "description": "الاستماع بصوت الدوسري",
+      "icons": [
+        {
+          "sizes": "192x192",
+          "src": "https://cdn-icons-png.flaticon.com/512/1701/1701029.png"
+        }
+      ],
+      "name": "الدوسري",
+      "short_name": "الدوسري",
+      "url": "./?reader=yasser"
+    }
+  ],
+  "start_url": "./",
+  "theme_color": "#10b981"
+}
